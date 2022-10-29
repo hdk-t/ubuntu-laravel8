@@ -24,4 +24,5 @@ https://hub.docker.com/r/thideki/ubuntu-laravel8
 ### Docker Run
 If /opt/html is empty then create Laravel project in /opt/html  
 See docker-entrypoint.sh for details  
+
     docker run -it --name ubuntu_laravel -p 80:80 ubuntu-laravel8:local  
